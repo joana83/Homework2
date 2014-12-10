@@ -92,16 +92,162 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+	
+#wrapper{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica;
+ }
+
+#logo{
+	width: 960px;
+	height: 86px;
+	padding: 5px;
+
+ }
+
+h1{
+	font-size:220%;
+}
+
+h2{
+	font-size:200%;
+}
+ 
+h3{			
+	font-size:180%;
+}
+
+h4{
+	font-size:160%;
+}
+		
+h5{
+	font-size:140%;
+}
+					
+h6{
+	font-size:120%;
+}
+
+#menu{
+	height:56px;
+	line-height: 45px;
+	width: auto;
+	padding 10px;
+	background-color:#3f8252;
+	text-align: center;
+	}
+
+
+#menu li{
+	display: inline;
+
+	}
+
+a{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  font-size:14px;
+  }
+
+
+#body{
+	clear:both;
+
+     }
+
+
+#faceboo_bar{
+	margin-right:auto;
+	margin-left: auto;
+	padding:5px;
+
+	}	
+#heating_section{
+	background-color: #eef1f5;
+	padding:10px;
+	clear: both;
+	margin: auto;
+}
+
+
+
+p.first{
+	font-size: 30px;
+	margin:0px;
+	color:#cd7a76;
+}	
+
+p{
+	font-size:14px;
+	margin:0px;
+	text-align:center;
+
+}
+
+.second{
+	font-size:30px;
+	margin:0px;
+	color:#2980b9;
+	text-align:center;
+					
+}
+
+#footer{
+	background-color:#eef1f5;
+	padding:auto;
+	clear:both;
+				
+}
+
+
+#footer_photo{
+	width:100%;
+	padding: 0px;
+	clear: both;
+	margin:0px;
+	height: auto;
+	}
+
+
+.about{
+	font-size:25px;
+	margin:0px;
+	text-align:center;
+	}
 
 
 
 
 
 
-
-
-
-
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v134)
+"   /afs/cad.njit.edu/u/j/f/jfs9/public_html/formproject/MyFirstForm
+"   Sorted by      name
+"   Sort sequence: [\/]$,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+" ============================================================================
+../
+.git/
+dist/
+src/
+test/
+.editorconfig
+.gitattributes
+.gitignore
+.jscsrc
+.jshintrc
+.travis.yml
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE.md
+README.md
+gulpfile.js
+package.json
 
 
 
